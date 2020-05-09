@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+.header {
+    background-color: aquamarine;
+
+}
+.header h2 {
+    text-align: center;
+}
+.firstcontent {
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+
+}
+.cleft {
+
+}
+.cleft img {
+    height: 100%;
+}
+.cright {
+    padding: 18rem 0;
+}
+
+.cright h2 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    position: relative;
+    display: inline-block;
+}
+.cright h2::after{
+    content: "";
+    width: 25%;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: #000;
+    position: absolute;
+}
+
+.cright h3 {
+    font-size: 2rem;
+}
+.cright p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.socialicon {
+    margin-top: 10px;
+}
+.socialicon i{
+    font-size: 2rem;
+    margin: 0.3rem;
+}
+
+.clientsection {
+    margin: 0 auto;
+    text-align: center;
+}
+.clientsection h2 {
+    font-size: 3rem;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1rem;
+}
+.clientsection h2{
+    
+}
+.review {
+   
+}
+.review img {
+    margin: 0.5rem;
+}
